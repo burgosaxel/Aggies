@@ -10,11 +10,11 @@ document.addEventListener('DOMContentLoaded',function(){
   })
 
   // close menu when a link is clicked
-  const navLinks = document.querySelectorAll('#main-nav a');
+  const navLinks = document.querySelectorAll('#main-nav a, .footer-nav a');
   const mobileNavQuery = window.matchMedia('(max-width: 900px)');
   navLinks.forEach(link => {
     link.addEventListener('click', (event) => {
-      mainNav.classList.remove('open');
+      if(link.closest('#main-nav')) mainNav.classList.remove('open');
       if(!mobileNavQuery.matches) return;
 
       const hash = link.getAttribute('href');

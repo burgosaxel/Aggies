@@ -29,6 +29,7 @@ section[id]{scroll-margin-top:-30px}
 .eyebrow{background:rgba(255,255,255,0.60);display:inline-block;padding:6px 10px;border-radius:999px;margin-bottom:6px}
 .hero h1{font-family:Lobster,serif;font-size:44px;margin:6px 0;display:inline-block;background:rgba(255,255,255,0.58);padding:12px 22px;border-radius:999px;box-shadow:0 12px 28px rgba(26,26,26,0.08)}
 .lede{max-width:720px;margin:0 auto;background:rgba(255,255,255,0.52);display:inline-block;padding:10px 18px;border-radius:999px;box-shadow:0 10px 24px rgba(26,26,26,0.06)}
+.hero-ctas{display:flex;flex-direction:row;gap:12px;align-items:center;justify-content:center;text-align:center;margin-top:18px}
 .legacy-strip{margin-top:6px;padding:10px 0}
 .legacy-strip .stats{display:flex;gap:24px;justify-content:center;list-style:none;margin:0;padding:0;font-weight:600}
 .section{padding:48px 0}
@@ -109,8 +110,8 @@ section[id]{scroll-margin-top:-30px}
   .eyebrow{display:inline-flex;align-items:center;max-width:100%;padding:8px 12px;border-radius:999px;margin:0 0 6px;white-space:normal;line-height:1.35}
   .hero h1{display:block;width:100%;max-width:100%;font-size:clamp(2rem, 8vw, 3rem);line-height:1.08;padding:10px 12px;border-radius:18px;margin:0 auto 6px}
   .lede{display:block;width:100%;max-width:100%;font-size:1.05rem;line-height:1.5;padding:14px 16px;border-radius:16px;margin:0 auto 6px}
-  .hero-ctas{display:flex;flex-direction:column;gap:6px;margin:6px auto 0;max-width:420px;width:calc(100% - 24px);padding:0}
-  .hero-ctas .btn{width:100%}
+  .hero-ctas{display:flex;flex-direction:column;gap:6px;margin:6px auto 0;max-width:420px;width:calc(100% - 24px);padding:0;align-items:center}
+  .hero-ctas .btn{width:auto}
   .legacy-strip{margin-top:6px;padding:0}
   .legacy-strip .stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;padding:4px 0 2px}
   .legacy-strip .stats li{padding:8px 6px;border-radius:10px;background:rgba(255,255,255,0.46);text-align:center;line-height:1.25;font-size:0.72rem}
@@ -179,7 +180,6 @@ section[id]{scroll-margin-top:-30px}
 
 /* Scoop-shaped divider between hero and next section */
 .legacy-strip{position:relative}
-.legacy-strip::before{content:"";display:block;height:28px;background:linear-gradient(180deg,transparent,rgba(0,0,0,0.02));border-bottom-left-radius:50% 20px;border-bottom-right-radius:50% 20px;position:absolute;left:0;right:0;top:-20px}
 
 /* Smooth image rounding and lazy loading hint */
 .flavor-card img{border-radius:10px;will-change:transform;transform-origin:center}

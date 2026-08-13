@@ -11,9 +11,26 @@ document.addEventListener('DOMContentLoaded',function(){
 
   // close menu when a link is clicked
   const navLinks = document.querySelectorAll('#main-nav a');
+  const mobileNavQuery = window.matchMedia('(max-width: 900px)');
   navLinks.forEach(link => {
-    link.addEventListener('click', () => {
+    link.addEventListener('click', (event) => {
       mainNav.classList.remove('open');
+      if(!mobileNavQuery.matches) return;
+
+      const hash = link.getAttribute('href');
+      if(!hash || !hash.startsWith('#')) return;
+
+      const section = document.querySelector(hash);
+      const heading = section && section.querySelector('h2, h3');
+      const scrollTarget = heading || section;
+      if(!scrollTarget) return;
+
+      event.preventDefault();
+      window.history.pushState(null, '', hash);
+      window.requestAnimationFrame(() => {
+        const top = scrollTarget.getBoundingClientRect().top + window.scrollY - 8;
+        window.scrollTo({ top, behavior: 'smooth' });
+      });
     });
   });
 

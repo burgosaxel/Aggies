@@ -1,0 +1,68 @@
+{
+  "flavors": [
+    {
+      "name": "Milky Way",
+      "description": "Rich, creamy and packed with candy-bar-inspired indulgence.",
+      "tags": ["fan"],
+      "badges": ["Fan Favorite"],
+      "image": "photo-1551024709-8f23befc6f87",
+      "available": true
+    },
+    {
+      "name": "Blueberry Pie",
+      "description": "A Maine-worthy combination of sweet blueberry flavor and classic pie goodness.",
+      "tags": ["new"],
+      "badges": ["New"],
+      "image": "photo-1505250469679-203ad9ced0cb",
+      "available": true
+    },
+    {
+      "name": "PB Caramel Cookie Dough",
+      "description": "Peanut butter, caramel and cookie dough in one seriously loaded scoop.",
+      "tags": ["fan"],
+      "badges": ["Fan Favorite"],
+      "image": "photo-1512621776951-a57141f2eefd",
+      "available": true
+    },
+    {
+      "name": "Strawberry Shortcake",
+      "description": "Sweet strawberry ice cream with buttery shortcake-inspired pieces.",
+      "tags": [],
+      "badges": [],
+      "image": "photo-1499636136210-6f4ee915583e",
+      "available": true
+    },
+    {
+      "name": "Lemon Meringue Pie",
+      "description": "Bright, creamy and refreshingly tart.",
+      "tags": [],
+      "badges": [],
+      "image": "photo-1544025162-d76694265947",
+      "available": true
+    },
+    {
+      "name": "Salted Caramel Pretzel",
+      "description": "Sweet caramel balanced with salty pretzel goodness.",
+      "tags": [],
+      "badges": [],
+      "image": "photo-1565299624946-b28f40a0ae38",
+      "available": true
+    },
+    {
+      "name": "Coffee Kahlua Brownie",
+      "description": "A rich coffee-inspired combination for serious dessert lovers.",
+      "tags": [],
+      "badges": [],
+      "image": "photo-1560807707-8cc77767d783",
+      "available": true
+    },
+    {
+      "name": "Marshwood Mix",
+      "description": "A local favorite worth discovering.",
+      "tags": ["fan"],
+      "badges": ["Local Favorite"],
+      "image": "photo-1505250469679-203ad9ced0cb",
+      "available": true
+    }
+  ]
+}

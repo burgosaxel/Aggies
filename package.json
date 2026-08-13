@@ -1,0 +1,13 @@
+{
+  "name": "aggies-site",
+  "version": "1.0.0",
+  "description": "Static prototype for Aggie's Ice Cream",
+  "type": "commonjs",
+  "scripts": {
+    "optimize-images": "node scripts/optimize-images.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "sharp": "^0.35.3"
+  }
+}

@@ -76,7 +76,7 @@ section[id]{scroll-margin-top:-30px}
 .footer-brand,.footer-contact,.footer-nav{text-align:left}
 .footer-nav a{display:inline-block;margin-right:12px;color:var(--text)}
 .copyright{text-align:left;padding:0;color:#777}
-.mobile-bottom-bar{display:none;position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid rgba(0,0,0,0.06);padding:8px 12px;display:flex;justify-content:space-around;z-index:90}
+.mobile-bottom-bar{display:none;position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid rgba(0,0,0,0.06);padding:8px 12px;justify-content:space-around;z-index:90}
 
 @media(max-width:900px){
   .site-header{position:sticky;top:0}

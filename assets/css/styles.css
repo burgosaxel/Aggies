@@ -11,7 +11,7 @@ html{scroll-behavior:smooth}
 body{font-family:Montserrat,system-ui,Arial,sans-serif;color:var(--text);background:var(--cream);margin:0;line-height:1.4}
 .container{max-width:1100px;margin:0 auto;padding:0 18px}
 .site-header{position:sticky;top:0;background:rgba(255,245,230,0.95);backdrop-filter:blur(4px);border-bottom:1px solid rgba(0,0,0,0.06);z-index:50}
-section[id]{scroll-margin-top:-30px}
+section[id]{scroll-margin-top:45px}
 .header-inner{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
 .brand{font-family:Lobster,serif;font-size:28px;color:var(--chocolate);text-decoration:none;display:inline-flex;flex-direction:column;align-items:center;line-height:0.9}
 .brand .logo-line-2{display:block;font-size:12px;font-family:Montserrat;line-height:1.1;text-align:center;letter-spacing:0.02em;margin-top:6px}

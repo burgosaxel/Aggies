@@ -32,7 +32,10 @@ section[id]{scroll-margin-top:-30px}
 .hero-ctas{display:flex;flex-direction:row;gap:12px;align-items:center;justify-content:center;text-align:center;margin-top:18px}
 .legacy-strip{margin-top:6px;padding:10px 0}
 .legacy-strip .stats{display:flex;gap:24px;justify-content:center;list-style:none;margin:0;padding:0;font-weight:600}
-.section{padding:48px 0}
+.section{padding:28px 0}
+.section h2{margin:0 0 12px}
+.section h3{margin:0 0 10px}
+.section-lead{margin:0 0 18px}
 .flavor-controls{display:flex;gap:12px;align-items:center;margin:18px 0}
 #flavor-search{flex:1;padding:10px;border-radius:10px;border:1px solid rgba(0,0,0,0.08)}
 .flavor-tags button{padding:8px 10px;border-radius:8px;border:none;background:transparent}
@@ -115,7 +118,7 @@ section[id]{scroll-margin-top:-30px}
   .legacy-strip{margin-top:6px;padding:0}
   .legacy-strip .stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;padding:4px 0 2px}
   .legacy-strip .stats li{padding:8px 6px;border-radius:10px;background:rgba(255,255,255,0.46);text-align:center;line-height:1.25;font-size:0.72rem}
-  .section{padding:40px 0}
+  .section{padding:26px 0}
   .section h2{font-size:clamp(1.8rem, 7vw, 2.4rem);line-height:1.08}
   .section-lead{font-size:1.05rem;line-height:1.5}
   .flavor-controls{flex-direction:column;align-items:stretch;gap:6px}
@@ -154,7 +157,7 @@ section[id]{scroll-margin-top:-30px}
   .eyebrow{font-size:0.88rem;padding:7px 10px}
   .hero h1{font-size:clamp(1.9rem, 9vw, 2.6rem);padding:8px 10px}
   .lede{font-size:1rem;padding:12px 14px}
-  .section{padding:32px 0}
+  .section{padding:22px 0}
   .flavor-grid{grid-template-columns:1fr}
   .flavor-card h4{font-size:1rem}
   .legacy-strip .stats{grid-template-columns:1fr 1fr}
